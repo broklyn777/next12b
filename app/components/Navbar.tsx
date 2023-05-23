@@ -13,7 +13,7 @@ export default function Navbar() {
             Einar
           </Link>
         </h1>
-        <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
+        <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-lg lg:text-2xl">
           <Link
             className="text-white/90 hover:text-white"
             href="https://www.youtube.com/@DaveGrayTeachesCode"
@@ -25,6 +25,9 @@ export default function Navbar() {
             href="https://courses.davegray.codes/"
           >
             <FaLaptop />
+          </Link>
+          <Link className="text-white/90 hover:text-white" href="/einar">
+            EP
           </Link>
           <Link
             className="text-white/90 hover:text-white"

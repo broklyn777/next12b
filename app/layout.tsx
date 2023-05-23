@@ -2,10 +2,10 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Einars Hemservice",
-  description: "Best mowGarden in town",
-};
+// export const metadata: Metadata = {
+//   title: "Einars Hemservice",
+//   description: "Best mowGarden in town",
+// };
 
 export default function RootLayout({
   children,
